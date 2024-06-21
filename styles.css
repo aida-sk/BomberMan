@@ -9,12 +9,19 @@ body {
 
 .content {
     text-align: center;
+    width: 80%;  /* Begrenser bredden på innholdet for bedre layout */
+}
+
+img {
+    max-width: 50%;  /* Setter maksimal bredde på bildene til 50% av containerens bredde */
+    height: auto;  /* Beholder bildets opprinnelige proporsjoner */
+    margin: 10px 0;  /* Legger til vertikal margin for mellomrom */
 }
 
 h1 {
-    color: darkblue;
+    color: rgb(0, 0, 0);
 }
 
 p {
-    color: gray;
+    color: rgb(85, 85, 85);
 }
